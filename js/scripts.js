@@ -33,7 +33,7 @@ suits.forEach(function(suit) {
   var card, cardSymbol;
   for (card = 0; card < cardsPerSuit; card++) {
     cardSymbol = getCardSymbol(card);
-    allCards += "<li>" + cardSymbol + " " + suitSymbol + "</li>";
+    allCards += "<li class='" + suit[2] + "'>" + cardSymbol + " " + suitSymbol + "</li>";
   };
 
   // Insert list items into deck

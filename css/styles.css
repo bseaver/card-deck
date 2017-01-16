@@ -1,2 +1,7 @@
-/* No additional styling at present!
-** Just using Bootstrap rows and columns */
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
